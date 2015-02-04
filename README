@@ -1,0 +1,10 @@
+This is a meta layer for the OpenEmbedded build framework. It is a BSP (board
+support) layer that describes the features of the PCEngines ALIX boards. I've
+only got an alix3d2 so that's all I intend to support for now. I'm currently
+toying with the LPC bus on this board to integrate a TPM so expect to see
+strange variations of machine configs for this board.
+
+If you're using similar boards from PCEngines feel free to send me a pull
+request to add them here. If you already have a BSP that's similar get in
+touch so we can pool resources.
+
